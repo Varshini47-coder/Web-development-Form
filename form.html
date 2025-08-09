@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <form>
+        <h1>Student Details</h1>
+
+        <div>
+            <h2>Name</h2>
+            <!-- <label for="namee">Enter your Name:</label> -->
+            <input type="text" name="Username" placeholder="Enter your Name" id="namee" maxlength="30">
+        </div>
+
+        <div>
+            <h2>Department</h2>
+             
+            
+            <select name="Department" id="departt" placeholder="Choose your department">
+                <option value="" disabled selected hidden>Select your Department</option>
+                <option value="ALDS">AI&DS</option>
+                <option value="IT">IT</option>
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="EEE">ECE</option>
+                <option value="EEE">Cybersecurity</option>
+
+            </select>
+        </div>
+
+        <div>
+            <h2>Email</h2>
+            <input type="email" name="email" placeholder="Enter your Email" id="email">
+        </div>
+
+
+        <div>
+            <h2>Travel</h2>
+            <label><input type="checkbox" name="travel" value="Dayscholar"> Dayscholar</label>
+            <label><input type="checkbox" name="travel" value="Own Vehicle"> Own Vehicle</label>
+            <label><input type="checkbox" name="travel" value="Hostel"> Hostel</label>
+            <label><input type="checkbox" name="travel" value="College Transport"> College Transport</label>
+        </div>
+
+        <div>
+            <h2>Gender</h2>
+            <label><input type="radio" name="gender" value="Male"> Male</label>
+            <label><input type="radio" name="gender" value="Female"> Female</label>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+</body>
+</html>
